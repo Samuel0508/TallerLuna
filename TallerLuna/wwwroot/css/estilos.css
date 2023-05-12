@@ -1,0 +1,69 @@
+:root
+{
+    --color-primario: rgb(21, 49, 65);
+    --color-primario-oscuro: rgb(8, 29, 41);
+    --color-primario-letra: white;
+}
+
+#menu-navegacion
+{
+    background-color: var(--color-primario);
+    height: 100vh;
+    color: var(--color-primario-letra);
+    padding: 0;
+}
+
+
+#menu-navegacion
+{
+    background-color: var(--color-primario);
+    height: 100vh;
+    color: var(--color-primario-letra);
+}
+
+#menu-navegacion #menu-logo
+{
+    background-color: var(--color-primario-oscuro);
+    padding: 15px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+#menu-logo h1
+{
+    padding: 15px;
+}
+
+#menu-navegacion #menu-botones
+{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+#menu-botones a
+{
+    text-decoration: none;
+    display: flex;
+    padding: 15px;
+}
+
+#menu-botones svg
+{
+    margin-right: 20px;
+    width: 40px;
+    color: var(--color-primario-letra);
+}
+
+#menu-botones span
+{
+    font-size: 20px;
+    color: var(--color-primario-letra);
+    display: flex;
+    align-items: center;
+}
